@@ -1,0 +1,20 @@
+# cargar el modelo
+model modelo.mod;
+
+# cargar datos
+data datos.dat;
+
+# directorio del solver
+option solver '/Users/luisrojo/Desktop/AMPL/cplex';
+
+# resuelvelo c:
+solve;
+
+# muestre las ecuaciones del problema
+expand;
+
+# visualizar el valor de las variables
+display x;
+
+# se debe reestablecer la consola
+reset;

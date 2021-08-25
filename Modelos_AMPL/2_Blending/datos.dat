@@ -1,0 +1,29 @@
+data;
+
+# contenido de metal k en mineral i
+param alpha: 1 2 3 4:=
+1	0.2	0.1	0.35	0.35
+2	0.15	0.25	0.3	0.3
+3	0.05	0.05	0.7	0.2;
+
+# disponibilidad de mineral i
+param d: 1 2 3 :=
+1 1000 2000 3000;
+
+# precio compra mineral i
+param c: 1 2 3 :=
+1 30 40 50;
+
+# precio venta aleacion j
+param p: 1 2 :=
+1 200 300;
+
+# cantidad minima de metal k en aleacion j
+param l: 1 2 3 4 :=
+1	0	0	0	0
+2	0	0.4	0.3	0;
+
+# cantidad maxima de metal k en aleacion j
+param u: 1 2 3 4 :=
+1	0.8	0.3	1	0.5
+2	1	0.6	1	0.7;

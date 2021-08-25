@@ -1,0 +1,18 @@
+data;
+
+# precio unitario
+param precio: 1 2 :=
+1 3 2;
+
+# disponibilidad de material
+param disp_material: 1 2 :=
+1 15 10;
+
+# requerimiento del producto i de material j
+param req_material: 1 2 :=
+1 1 2
+2 3 1;
+
+# demanda maxima del producto i
+param dda_max: 1 2 :=
+1 4 100000000;

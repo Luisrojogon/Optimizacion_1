@@ -1,0 +1,23 @@
+# load the model
+model modelo.mod;
+
+# load the data
+data datos.dat;
+
+# states the solver to work with
+option solver '/Users/luisrojo/Desktop/AMPL/minos';
+#option presolve 0; # Disable the presolve
+
+solve;
+
+# it shows the equations of the whole model
+expand;
+
+# it shows the optimal values of variable x
+display utilidad > 'resultados.txt';
+display x > 'resultados.txt';
+close;
+
+# it resets the software dropping the current model
+# making it ready to execute another model
+reset;
