@@ -5,7 +5,7 @@ Desde 2016 a la fecha, la lista de personas que han trabajo en este curso según
 
 Cátedra:
 1. Ivan Dérpich (2015 - presente)
-2. Óscar C. Vásquez (2015 - presente)
+2. Óscar C. Vásquez (2015 - 2020)
 3. Luis Rojo-González (2020 - 2021)
 
 Laboratorio:
