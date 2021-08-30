@@ -1,0 +1,24 @@
+#Resetear info:
+reset;
+
+#Llamar al solver:
+option solver '/Users/luisrojo/Desktop/AMPL/cplex';
+
+#Llamar al modelo
+model Produccion.mod;
+
+# mostrar las estadisticas
+option show_stats 1;
+option solve_options 'summary_file = 6 \
+                      summary_frequency = 1';
+
+#Llamar a los datos:
+data Produccion.dat;
+
+#Resolver:
+solve;
+
+#Mostrar las variables:
+display x;
+
+display x > 'solucion.txt';

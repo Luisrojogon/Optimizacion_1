@@ -1,0 +1,17 @@
+#Resetear info:
+reset;
+
+#Llamar al solver:
+option solver cplex;
+
+#Llamar al modelo 
+model PlanAgregada.mod;
+
+#Llamar a los datos:
+data PlanAgregada.dat;
+
+#Resolver:
+solve;
+
+#Mostrar las variables:
+display x,y,I;
